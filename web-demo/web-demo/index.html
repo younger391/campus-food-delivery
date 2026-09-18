@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ff6b35" />
+  <title>校园食堂 · 浏览器演示</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="phone-shell" aria-label="校园食堂浏览器演示">
+    <header class="topbar">
+      <button class="back-button" id="back-button" aria-label="返回">‹</button>
+      <div>
+        <strong id="page-title">校园食堂</strong>
+        <span id="page-subtitle">清华大学 · 校园外卖</span>
+      </div>
+      <button class="more-button" aria-label="更多">•••</button>
+    </header>
+
+    <section id="app" class="screen" aria-live="polite"></section>
+
+    <nav class="tabbar" aria-label="主导航">
+      <button data-tab="home">
+        <span>⌂</span>首页
+      </button>
+
+      <button data-tab="merchants">
+        <span>⌕</span>商家
+      </button>
+
+      <button data-tab="cart" class="cart-tab">
+        <span>🛒</span>购物车
+        <em id="cart-badge"></em>
+      </button>
+
+      <button data-tab="orders">
+        <span>▤</span>订单
+      </button>
+
+      <button data-tab="profile">
+        <span>☺</span>我的
+      </button>
+    </nav>
+  </main>
+
+  <aside class="demo-note">
+    浏览器演示版 · 使用本地模拟数据 · 不会发起真实支付
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
