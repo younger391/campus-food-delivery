@@ -1,0 +1,1 @@
+Page({data:{order:null as any},onLoad(q){const order=(wx.getStorageSync('campus_orders')||[]).find((o:any)=>String(o.id)===q.id)||{id:q.id,status:'已完成',items:[{name:'招牌黄焖鸡米饭',count:1,price:18}],total:20,time:'今天 12:20',address:{name:'张同学',phone:'138****8888',detail:'紫荆公寓 3 号楼 201'}};this.setData({order})}})

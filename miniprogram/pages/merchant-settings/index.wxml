@@ -1,0 +1,1 @@
+<view class="container"><view class="card row"><view><view>营业状态</view><view class="muted">关闭后学生端将显示“休息中”</view></view><switch checked="{{business}}" bindchange="change" color="#ff6b35"/></view><view class="card muted">营业时间：10:00 - 22:00（演示数据）</view></view>

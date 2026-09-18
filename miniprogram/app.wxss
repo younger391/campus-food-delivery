@@ -1,0 +1,5 @@
+page { background: #f7f8fa; color: #242424; font-size: 28rpx; }
+.container { padding: 24rpx; padding-bottom: 120rpx; }
+.card { background: #fff; border-radius: 20rpx; padding: 24rpx; margin-bottom: 20rpx; }
+.row { display: flex; align-items: center; justify-content: space-between; }
+.muted { color: #909399; font-size: 24rpx; }.price { color: #f03d2d; font-weight: 600; }.primary { background:#ff6b35; color:#fff; border-radius: 40rpx; padding: 14rpx 28rpx; font-size: 26rpx; }.tag { color:#ff6b35; background:#fff0eb; padding:6rpx 12rpx; border-radius:8rpx; font-size:22rpx; }.empty { text-align:center; padding:120rpx 20rpx; color:#909399; }.section-title { font-size:34rpx; font-weight:600; margin:16rpx 0 20rpx; }

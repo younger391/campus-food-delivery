@@ -1,0 +1,1 @@
+<view class="container" wx:if="{{product}}"><view class="card detail"><text>{{product.image}}</text><view class="section-title">{{product.name}}</view><view class="price">¥{{product.price}}</view><view class="muted">月售 {{product.sold}}</view><view class="desc">{{product.description}}</view></view><button class="primary add" bindtap="add">加入购物车</button></view>

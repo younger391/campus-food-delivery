@@ -1,0 +1,7 @@
+{
+  "miniprogramRoot": "./",
+  "compileType": "miniprogram",
+  "setting": { "es6": true, "minified": false, "urlCheck": false },
+  "appid": "touristappid",
+  "projectname": "campus-food-delivery"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "campus-food-delivery",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "build:server": "npm --prefix server run build",
+    "check": "npm --prefix server run check"
+  }
+}

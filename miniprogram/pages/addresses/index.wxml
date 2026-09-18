@@ -1,0 +1,1 @@
+<view class="container"><view wx:for="{{addresses}}" wx:key="id" class="card"><view class="row"><text>{{item.name}} {{item.phone}}</text><text wx:if="{{item.default}}" class="tag">默认</text></view><view class="muted">{{item.detail}}</view></view><button class="primary add" bindtap="add">新增收货地址</button></view>

@@ -1,0 +1,1 @@
+<view class="container"><view class="card login"><text class="logo">🏪</text><view class="section-title">商家管理后台</view><input placeholder="商家账号（演示）"/><input password placeholder="密码（演示）"/><button class="primary" bindtap="login">登录（模拟）</button><view class="muted">第一阶段使用模拟身份，不接入真实认证。</view></view></view>

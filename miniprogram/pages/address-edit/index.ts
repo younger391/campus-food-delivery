@@ -1,0 +1,1 @@
+Page({data:{name:'',phone:'',detail:''},input(e:WechatMiniprogram.BaseEvent){this.setData({[e.currentTarget.dataset.key]:e.detail.value})},save(){if(!this.data.name||!this.data.phone||!this.data.detail)return wx.showToast({title:'请填写完整地址',icon:'none'});wx.showToast({title:'已保存'});setTimeout(()=>wx.navigateBack(),500)}})
