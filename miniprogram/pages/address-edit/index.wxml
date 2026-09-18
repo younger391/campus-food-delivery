@@ -1,0 +1,1 @@
+<view class="container"><view class="card"><input placeholder="联系人姓名" data-key="name" bindinput="input"/><input placeholder="手机号码" data-key="phone" bindinput="input"/><input placeholder="宿舍楼、门牌号等详细地址" data-key="detail" bindinput="input"/></view><button class="primary" bindtap="save">保存地址</button></view>

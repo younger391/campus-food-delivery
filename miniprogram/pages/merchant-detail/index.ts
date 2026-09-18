@@ -1,0 +1,2 @@
+import { getMerchant } from '../../utils/mock'; import { addCart } from '../../utils/cart'
+Page({data:{merchant:null as any},onLoad(q){this.setData({merchant:getMerchant(Number(q.id))})}, product(e:WechatMiniprogram.BaseEvent){wx.navigateTo({url:`/pages/product-detail/index?id=${e.currentTarget.dataset.id}`})}, add(e:WechatMiniprogram.BaseEvent){const p=this.data.merchant.products.find((x:any)=>x.id===e.currentTarget.dataset.id);addCart(p)}})

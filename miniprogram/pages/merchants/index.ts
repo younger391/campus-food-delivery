@@ -1,0 +1,2 @@
+import { categories, merchants } from '../../utils/mock'
+Page({data:{categories,active:'全部',list:merchants}, choose(e:WechatMiniprogram.BaseEvent){const active=e.currentTarget.dataset.name;this.setData({active,list:active==='全部'?merchants:merchants.filter(m=>m.category===active)})}, detail(e:WechatMiniprogram.BaseEvent){wx.navigateTo({url:`/pages/merchant-detail/index?id=${e.currentTarget.dataset.id}`})}})

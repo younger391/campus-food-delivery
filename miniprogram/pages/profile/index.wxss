@@ -1,0 +1,1 @@
+.user{background:#ff6b35;color:#fff;padding:34rpx;border-radius:20rpx;display:flex;gap:20rpx;align-items:center}.user text{font-size:70rpx}.name{font-size:34rpx;font-weight:bold}.item{padding:24rpx 0;border-bottom:1rpx solid #eee;display:flex;justify-content:space-between}.item:last-child{border:0}

@@ -1,0 +1,1 @@
+.icon{font-size:52rpx}.grow{flex:1;margin-left:18rpx}.counter{display:flex;gap:18rpx;align-items:center;color:#ff6b35;font-size:34rpx}.bar{position:fixed;bottom:0;left:0;right:0;padding:20rpx 24rpx;background:#fff;display:flex;align-items:center;justify-content:flex-end;gap:20rpx}

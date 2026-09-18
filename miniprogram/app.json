@@ -1,0 +1,8 @@
+{
+  "pages": ["pages/home/index", "pages/merchants/index", "pages/merchant-detail/index", "pages/product-detail/index", "pages/cart/index", "pages/checkout/index", "pages/orders/index", "pages/order-detail/index", "pages/profile/index", "pages/addresses/index", "pages/address-edit/index", "pages/merchant-login/index", "pages/merchant-products/index", "pages/merchant-orders/index", "pages/merchant-settings/index"],
+  "window": { "navigationBarTitleText": "校园食堂", "navigationBarBackgroundColor": "#ffffff", "navigationBarTextStyle": "black", "backgroundColor": "#f7f8fa" },
+  "tabBar": { "color": "#7a7e83", "selectedColor": "#ff6b35", "backgroundColor": "#ffffff", "list": [
+    {"pagePath":"pages/home/index","text":"首页"}, {"pagePath":"pages/merchants/index","text":"商家"}, {"pagePath":"pages/cart/index","text":"购物车"}, {"pagePath":"pages/orders/index","text":"订单"}, {"pagePath":"pages/profile/index","text":"我的"}
+  ]},
+  "sitemapLocation": "sitemap.json"
+}

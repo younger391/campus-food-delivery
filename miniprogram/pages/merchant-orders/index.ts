@@ -1,0 +1,1 @@
+Page({data:{orders:[{id:'M20260918001',customer:'张同学',items:'招牌黄焖鸡米饭 × 1',total:20,status:'待接单'}]}, action(e:WechatMiniprogram.BaseEvent){const status=e.currentTarget.dataset.status;this.setData({'orders[0].status':status});wx.showToast({title:status==='已接单'?'已接单':'已拒单'})}})

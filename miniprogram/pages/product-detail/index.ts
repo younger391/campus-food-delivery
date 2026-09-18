@@ -1,0 +1,1 @@
+import {getProduct} from '../../utils/mock'; import {addCart} from '../../utils/cart'; Page({data:{product:null as any},onLoad(q){this.setData({product:getProduct(Number(q.id))})},add(){addCart(this.data.product)}})

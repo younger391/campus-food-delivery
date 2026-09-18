@@ -1,0 +1,1 @@
+Page({data:{orders:[]},onShow(){this.setData({orders:wx.getStorageSync('campus_orders')||[{id:10001,status:'已完成',items:[{name:'招牌黄焖鸡米饭',count:1}],total:20,time:'今天 12:20'}]})},detail(e:WechatMiniprogram.BaseEvent){wx.navigateTo({url:`/pages/order-detail/index?id=${e.currentTarget.dataset.id}`})}})
